@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F8DD7662D68B48200FCC019 /* ParseLiveQuery in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8DD7652D68B48200FCC019 /* ParseLiveQuery */; };
+		8F8DD7682D68B48200FCC019 /* ParseObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8DD7672D68B48200FCC019 /* ParseObjC */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8F8DD7482D68B42000FCC019 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8DD7682D68B48200FCC019 /* ParseObjC in Frameworks */,
+				8F8DD7662D68B48200FCC019 /* ParseLiveQuery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,8 @@
 			);
 			name = MyStoreAdmin;
 			packageProductDependencies = (
+				8F8DD7652D68B48200FCC019 /* ParseLiveQuery */,
+				8F8DD7672D68B48200FCC019 /* ParseObjC */,
 			);
 			productName = MyStoreAdmin;
 			productReference = 8F8DD7372D68B41E00FCC019 /* MyStoreAdmin.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = 8F8DD72E2D68B41E00FCC019;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8F8DD7642D68B48200FCC019 /* XCLocalSwiftPackageReference "../../../Downloads/Parse-SDK-iOS-OSX-4.2.0" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8F8DD7382D68B41E00FCC019 /* Products */;
 			projectDirPath = "";
@@ -558,6 +570,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8F8DD7642D68B48200FCC019 /* XCLocalSwiftPackageReference "../../../Downloads/Parse-SDK-iOS-OSX-4.2.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/Parse-SDK-iOS-OSX-4.2.0";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F8DD7652D68B48200FCC019 /* ParseLiveQuery */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ParseLiveQuery;
+		};
+		8F8DD7672D68B48200FCC019 /* ParseObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ParseObjC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F8DD72F2D68B41E00FCC019 /* Project object */;
 }
